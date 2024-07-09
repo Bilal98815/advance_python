@@ -52,6 +52,22 @@ import os
 # appendFile.close()
 
 
+# --------->>>>>>>> Tell Cursor position <<<<<<<<-----------
+
+# Open a file in read mode
+file = open('python.txt', 'r')
+
+# Read the first 10 characters
+content = file.read(10)
+print(content)
+
+# Check the current position of the file pointer
+position = file.tell()
+print("Current position:", position)
+
+# Close the file
+file.close()
+
 
 
 # create file function
