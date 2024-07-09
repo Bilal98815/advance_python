@@ -3,7 +3,7 @@ def myFun(*argv):
         print(arg)
 
 
-# myFun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
+myFun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
 
 def myFun(**kwargs):
     for key, value in kwargs.items():
