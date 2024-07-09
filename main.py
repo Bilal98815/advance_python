@@ -9,13 +9,13 @@ from functools import partial
 
 # for i in range(10):
 #     print(i)
-#     i = i*5
+#     i = i * 5
  
  
 # def power(a, b):
 #     print("A value: ", a)
 #     print("B value: ", b)
-#     return a**b
+#     return a ** b
  
  
 # # partial functions
@@ -28,13 +28,13 @@ from functools import partial
 # print(pow4(3))
 # print(power_of_5(2))
 
-# print('Function used in partial function pow2 :', pow2.func)
-# print('Default keywords for pow2 :', pow2.keywords)
-# print('Default arguments for power_of_5 :', power_of_5.args)
+# print('Function used in partial function pow2:', pow2.func)
+# print('Default keywords for pow2:', pow2.keywords)
+# print('Default arguments for power_of_5:', power_of_5.args)
 
-# def myFun(*argv):
-#     for arg in argv:
-#         print(arg)
+def myFun(*argv):
+    for arg in argv:
+        print(arg)
 
 
 # myFun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
